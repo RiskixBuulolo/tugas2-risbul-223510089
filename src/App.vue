@@ -64,7 +64,7 @@ export default {
         { 
           id: 1, 
           title: 'God Of War', 
-          image: 'gow.jpg',
+          image: '/assets/gow.jpg',
           description: 'God of War adalah permainan video aksi-petualangan yang dikembangkan oleh Santa Monica Studio dan diterbitkan oleh Sony Interactive Entertainment. Permainan ini didasarkan pada mitologi Yunani, dan menceritakan kisah dari dewa perang, Kratos, yang mengorbankan keluarganya dan menjadi pembunuh berdarah dingin demi membalas dendam pada dewa Ares. ', 
           rating: 4.8,
           genre: 'Action, Adventure',
