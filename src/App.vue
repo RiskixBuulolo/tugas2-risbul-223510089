@@ -73,7 +73,7 @@ export default {
         { 
           id: 2, 
           title: 'Spiderman', 
-          image: 'spiderman.jpg',
+          image: '/src/assets/spiderman.jpg',
           description: 'Spider-Man adalah permainan video action-adventure 2018 yang dikembangkan oleh Insomniac Games dan diterbitkan oleh Sony Interactive Entertainment. Ini didasarkan pada karakter superhero Spider-Man Marvel Comics, dan cerita alternatif aslinya yang mengikuti Peter Parker yang berusia 23 tahun dan akhirnya menjadi Spider-Man setelah delapan tahun menekuni identitas tersebut. ', 
           rating: 4.7,
           genre: 'Action, Adventure',
@@ -82,7 +82,7 @@ export default {
         { 
           id: 3, 
           title: 'Panda', 
-          image: 'panda.jpg',
+          image: './src/assets/panda.jpg',
           description: 'Panda adalah permainan video strategi simulasi yang dikembangkan oleh Bamboo Games. Dalam permainan ini, pemain bertugas merawat dan mengembangkan kebun binatang dengan spesialisasi pada panda. Pemain harus memastikan panda-panda tersebut bahagia dan sehat sambil menjaga kebun binatang agar tetap berjalan dengan lancar.', 
           rating: 4.5,
           genre: 'Strategy, Simulation',
