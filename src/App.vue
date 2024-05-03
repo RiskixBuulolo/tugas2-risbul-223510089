@@ -37,7 +37,6 @@ sesudah
     <div class="game-list">
       <h2>Daftar Game Yang Diskon</h2>
       <div class="game-item" v-for="game in games" :key="game.id">
-        <br><br>
         <h3>{{ game.title }}</h3>
         <button class="btn btn-primary" @click="showGameDetail(game.id)">Lihat Detail</button>
         <div class="game-detail" v-if="selectedGameId === game.id">
