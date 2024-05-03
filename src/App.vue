@@ -37,7 +37,6 @@ sesudah
     <div class="game-list">
       <h2>Daftar Game Yang Diskon</h2>
       <div class="game-item" v-for="game in games" :key="game.id">
-        <img :src="'src/assets' + game.image" alt="Game Image" class="game-image" 
         :style="{ width: '180px', height: 'auto' }">
         <br><br>
         <h3>{{ game.title }}</h3>
@@ -64,7 +63,6 @@ export default {
         { 
           id: 1, 
           title: 'God Of War', 
-          image: '/gow.jpg',
           description: 'God of War adalah permainan video aksi-petualangan yang dikembangkan oleh Santa Monica Studio dan diterbitkan oleh Sony Interactive Entertainment. Permainan ini didasarkan pada mitologi Yunani, dan menceritakan kisah dari dewa perang, Kratos, yang mengorbankan keluarganya dan menjadi pembunuh berdarah dingin demi membalas dendam pada dewa Ares. ', 
           rating: 4.8,
           genre: 'Action, Adventure',
@@ -73,7 +71,7 @@ export default {
         { 
           id: 2, 
           title: 'Spiderman', 
-          image: '/spiderman.jpg',
+
           description: 'Spider-Man adalah permainan video action-adventure 2018 yang dikembangkan oleh Insomniac Games dan diterbitkan oleh Sony Interactive Entertainment. Ini didasarkan pada karakter superhero Spider-Man Marvel Comics, dan cerita alternatif aslinya yang mengikuti Peter Parker yang berusia 23 tahun dan akhirnya menjadi Spider-Man setelah delapan tahun menekuni identitas tersebut. ', 
           rating: 4.7,
           genre: 'Action, Adventure',
@@ -82,7 +80,6 @@ export default {
         { 
           id: 3, 
           title: 'Panda', 
-          image: '/panda.jpg',
           description: 'Panda adalah permainan video strategi simulasi yang dikembangkan oleh Bamboo Games. Dalam permainan ini, pemain bertugas merawat dan mengembangkan kebun binatang dengan spesialisasi pada panda. Pemain harus memastikan panda-panda tersebut bahagia dan sehat sambil menjaga kebun binatang agar tetap berjalan dengan lancar.', 
           rating: 4.5,
           genre: 'Strategy, Simulation',
