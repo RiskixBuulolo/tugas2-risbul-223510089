@@ -2,7 +2,7 @@ sesudah
 
 <template>
   <div class="container">
-    <h1>Selamat Datang di Dunia Game</h1>
+    <h1>Selamat Datang di Dunia Game !</h1>
     <div class="mb-3">
       <label for="inputText" class="form-label">Masukkan Nama Anda</label>
       <input type="text" class="form-control" id="inputText" v-model="inputText" placeholder="Inputkan Sesuatu Disini">
@@ -37,7 +37,7 @@ sesudah
     <div class="game-list">
       <h2>Daftar Game Yang Diskon</h2>
       <div class="game-item" v-for="game in games" :key="game.id">
-        <img :src="'/src/assets/' + game.image" alt="Game Image" class="game-image" 
+        <img :src="'' + game.image" alt="Game Image" class="game-image" 
         :style="{ width: '180px', height: 'auto' }">
         <br><br>
         <h3>{{ game.title }}</h3>
