@@ -1,0 +1,70 @@
+body {
+  background-color: rgba(0, 0, 0, 0.726);
+}
+.container {
+margin-top: 50px;
+color: rgba(255, 255, 255, 0.808);
+}
+
+.text-red {
+color: red;
+}
+.text-bold {
+font-weight: bold;
+}
+.text-italic {
+font-style: italic;
+}
+.text-large {
+font-size: 30px;
+}
+.promotion {
+background-color: rgba(0, 0, 0, 0.313);
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+.promotion h2 {
+margin-bottom: 10px;
+}
+.promotion h3 {
+margin-bottom: 10px;
+}
+.promotion p {
+font-size: 18px;
+color: rgba(255, 255, 255, 0.808);
+}
+
+.promotion.text-bold p {
+color: rgb(0, 139, 253);
+}
+
+.button-row {
+margin-top: 20px;
+}
+.subscribed-message {
+color: green;
+font-weight: bold;
+}
+.game-list {
+margin-top: 50px;
+}
+.game-item {
+border: 1px solid #dee2e6;
+border-radius: 10px;
+padding: 20px;
+margin-bottom: 20px;
+}
+.game-item h3 {
+margin-bottom: 10px;
+}
+.game-item p {
+margin-bottom: 15px;
+}
+.game-detail {
+margin-top: 20px;
+border: 1px solid #ccc;
+padding: 10px;
+border-radius: 5px;
+}
