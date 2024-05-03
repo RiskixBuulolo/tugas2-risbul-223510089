@@ -37,7 +37,7 @@ sesudah
     <div class="game-list">
       <h2>Daftar Game Yang Diskon</h2>
       <div class="game-item" v-for="game in games" :key="game.id">
-        <img :src="'/src/assets/' + game.image" alt="Game Image" class="game-image" 
+        <img :src="'src/assets' + game.image" alt="Game Image" class="game-image" 
         :style="{ width: '180px', height: 'auto' }">
         <br><br>
         <h3>{{ game.title }}</h3>
